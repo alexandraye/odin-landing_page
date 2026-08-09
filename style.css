@@ -1,17 +1,33 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: #1F2937;
+    padding: 16px;
     /* display: flex; */
 }
 
-.header {
+.blackish {
+    color: #1F2937;
+}
+
+.greyish {
+    color: #E5E7EB;
+}
+
+.blueish {
+    color: #3882F6;
+}
+
+.whiteish {
+    color: #F9FAF8;
+}
+
+.header, .hero {
     display: flex;
     justify-content: space-between;
 }
 
 .left {
     font-size: 24px;
-    color: #F9FAF8;
 }
 
 ul, a {
@@ -21,5 +37,39 @@ ul, a {
   padding: 0;
   gap: 16px;
   text-decoration: none;
-  color: #E5E7EB;
+  color: #F9FAF8;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+}
+
+.content {
+    width: 450px;
+}
+
+.placeholder {
+    background-color: grey;
+    width: 520px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.secondary {
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 8px;
 }
