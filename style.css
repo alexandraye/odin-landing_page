@@ -122,3 +122,40 @@ button {
     font-weight: bold;
     font-size: 24px;
 }
+
+.action {
+    background-color: #F9FAF8;
+    padding: 32px;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    padding: 32px 64px;
+    border-radius:8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px
+}
+
+button {
+    align-self: center;
+    padding: 6px 28px;
+    white-space: nowrap;
+    border: 2px solid #F9FAF8;
+}
+
+.words {
+    display: flex;
+    flex-direction: column;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.blue-box p{
+    margin: 0;
+}
+
