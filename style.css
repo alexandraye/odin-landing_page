@@ -24,7 +24,7 @@ body {
 .header, .hero {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 32px;
 }
 
 .left {
@@ -104,4 +104,21 @@ button {
     flex-direction: column;
     text-align: center;
     width: 145px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 32px;
+}
+
+.text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.citation {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
 }
