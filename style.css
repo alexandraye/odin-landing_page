@@ -152,10 +152,13 @@ button {
 
 .bold {
     font-weight: bold;
-    font-size: larger;
+    font-size: 24px;
 }
 
 .blue-box p{
     margin: 0;
 }
 
+.footer {
+    text-align: center;
+}
