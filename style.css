@@ -24,7 +24,7 @@ body {
 .header, .hero {
     display: flex;
     justify-content: space-between;
-    padding: 32px;
+    padding: 64px;
 }
 
 .left {
@@ -108,7 +108,7 @@ button {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 32px;
+    padding: 64px;
 }
 
 .text {
@@ -125,7 +125,7 @@ button {
 
 .action {
     background-color: #F9FAF8;
-    padding: 32px;
+    padding: 64px;
 }
 
 .blue-box {
